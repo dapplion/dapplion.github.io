@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg width="209.39" height="87.05" version="1.1" viewBox="359.5 286.17 213.39 91.046" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="b" d="m360.51 358.53v-71.36 0.18l16.03 10.61 0.01 60.57h-16.04zm16.03-71.36h-9.2 9.2z"/>
+<path id="n" d="m470.32 302.87-28.56 16.5v-18.11l12.95-7.48h0.01l11.41-6.61h8.46l11.46 6.61-15.72 9.09h-0.01z"/>
+<path id="l" d="m498.98 319.37-28.56-16.5-15.73-9.09 11.46-6.61h8.47l11.41 6.61h0.01l12.94 7.48v18.11z"/>
+<path id="c" d="m541.21 302.96-28.55 16.51v-18.12l24.53-14.18h8.13l11.62 6.7-15.71 9.09h-0.02z"/>
+<path id="g" d="m569.88 301.35v18.12l-28.56-16.51h-0.01l-15.71-9.09 11.62-6.7h8.13l24.53 14.18z"/>
+<path id="h" d="m569.88 357.07v-15.58l-16.04 10.04v-56.88l16.04 9.31v53.11zm-16.04-62.57v0.15-0.15z"/>
+<path id="i" d="m512.61 303.96 16.04-9.31v-0.15 57.03l-16.05-10.04 0.01-37.53z"/>
+<path id="a" d="m512.61 323.17 16.04-9.96v60.83l-16.05-10.73 0.01-40.14zm0-10.12h4.67-4.67z"/>
+<path id="f" d="m404.79 366.57-13.27 7.65h-4.86l-13.21-7.65-0.01 0.01-12.94-7.49v-18.12l28.57 16.52v-0.01l15.72 9.09z"/>
+<path id="d" d="m413.02 363.41v-27.26l2.02-1.16v0.06l14.02-8.11v47.1l-16.04-10.63z"/>
+<path id="j" d="m486.05 367.61-11.46 6.61h-8.46l-11.41-6.6h-0.01l-12.95-7.48v-18.12l28.57 16.51 15.72 9.08z"/>
+<path id="k" d="m474.63 374.22h-8.47l-11.45-6.61 15.72-9.08 28.56-16.51v18.12l-12.94 7.48h-0.01l-11.41 6.6z"/>
+<path id="m" d="m429.06 310.65-1.07 0.62h-0.01l-6.56 3.79h-0.1l-8.3 4.8v-30.69l16.04 10.63v10.85z"/>
+<path id="e" d="m569.87 323.34-16.03-9.95v60.83l16.04-10.74-0.01-40.14zm0-10.12h-4.66 4.66z"/>
+</defs>
+<use fill="#fff" xlink:href="#b"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#b"/>
+<use fill="#fff" xlink:href="#n"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#n"/>
+<use fill="#fff" xlink:href="#l"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#l"/>
+<use fill="#fff" xlink:href="#c"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#c"/>
+<use fill="#fff" xlink:href="#g"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#g"/>
+<use fill="#fff" xlink:href="#h"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#h"/>
+<use fill="#fff" xlink:href="#i"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#i"/>
+<use fill="#fff" xlink:href="#a"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#a"/>
+<use fill="#fff" xlink:href="#f"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#f"/>
+<use fill="#fff" xlink:href="#d"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#d"/>
+<use fill="#fff" xlink:href="#j"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#j"/>
+<use fill="#fff" xlink:href="#k"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#k"/>
+<use fill="#fff" xlink:href="#m"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#m"/>
+<use fill="#fff" xlink:href="#e"/>
+<use fill-opacity="0" stroke="#000000" stroke-opacity="0" xlink:href="#e"/>
+</svg>

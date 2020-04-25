@@ -1,0 +1,30 @@
+@use "src/index.scss" as root;
+
+.sayHi {
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sayHiButton {
+  background: var(--brand-gradient);
+  border: 0;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  border-radius: var(--border-radius);
+}
+
+.blurShape {
+  $size: 200px;
+  @include root.blurColorDot($size);
+  right: 30%;
+  left: 30%;
+  top: 00%;
+  bottom: 30%;
+}

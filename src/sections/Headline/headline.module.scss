@@ -1,0 +1,93 @@
+@use "src/index.scss" as root;
+
+$spacingToTop: calc(1rem + 3vw);
+$spacingToImage: calc(6rem - 10vw);
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  // Overwrite generic section margin
+  margin-top: $spacingToTop !important;
+
+  .titlesSection {
+    position: relative;
+  }
+
+  .titlesContainer {
+    @include root.layout-container;
+    text-align: end;
+    word-break: break-word;
+    margin-bottom: $spacingToImage;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .title,
+  .title > * {
+    @include root.textgradient;
+    margin-bottom: 0.5rem;
+
+    font-weight: 600;
+    $font-size-vw: 10; // font size as vw
+    $font-size-max: 60px; // max font size
+    font-size: $font-size-vw * 1vw;
+    @media (min-width: $font-size-max * $font-size-vw) {
+      font-size: $font-size-max;
+    }
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .blurShape {
+    $size: 200px;
+    @include root.blurColorDot($size);
+    right: -$size;
+  }
+
+  .imgSection {
+    max-height: 80vw;
+    $max-heigh: 30rem;
+    height: $max-heigh;
+    position: relative;
+
+    .backgroundColor,
+    .backgroundTexture {
+      position: absolute;
+      height: calc(77% - 7vw);
+      min-height: 50%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .backgroundColor {
+      background: var(--brand-gradient);
+      opacity: 0.8;
+    }
+    // .backgroundTexture {
+    //   background-image: url("../../img/back.png");
+    //   background-repeat: repeat-x;
+    //   background-size: auto 100%;
+    //   filter: grayscale(1) brightness(1.5);
+    //   opacity: 0;
+    // }
+
+    .imgContainer {
+      @include root.layout-container;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+
+      img {
+        z-index: 1;
+        max-height: 100%;
+        // max-width: 90%;
+        // filter: brightness(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.fallingText {
+  position: relative;
+  display: flex;
+
+  > div {
+    transition: opacity var(--speed) ease;
+  }
+
+  > :not(:first-child) {
+    position: absolute;
+  }
+  > :nth-child(2) {
+    top: 5px;
+    opacity: 0.5;
+  }
+  > :nth-child(3) {
+    position: absolute;
+    top: 10px;
+    opacity: 0.25;
+  }
+  &:hover {
+    :first-child {
+      opacity: 0.25;
+    }
+    :nth-child(2) {
+      opacity: 0.5;
+    }
+    :nth-child(3) {
+      opacity: 1;
+    }
+  }
+}

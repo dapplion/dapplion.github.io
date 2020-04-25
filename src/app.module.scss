@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  // To prevent the background blur shapes from extending the layout horizontally
+  overflow-x: hidden;
+}
+
+.sections {
+  > * {
+    --section-separation: calc(5rem + 5vw);
+    margin-top: var(--section-separation);
+    margin-bottom: var(--section-separation);
+  }
+  flex: auto;
+}

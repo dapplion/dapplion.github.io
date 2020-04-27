@@ -1,5 +1,4 @@
 import React from "react";
-import { FallingText } from "components/FallingText";
 import { idSayHi, idRecentWork } from "params";
 import logo from "img/logo.svg";
 import styles from "./header.module.scss";
@@ -21,7 +20,7 @@ export function Header() {
         <div className={styles.nav}>
           {navItems.map(({ text, url }) => (
             <a key={text} href={url}>
-              <FallingText text={text} />
+              {text}
             </a>
           ))}
         </div>

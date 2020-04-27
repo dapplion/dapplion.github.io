@@ -48,20 +48,16 @@
     }
 
     .url {
+      @include root.hoverText;
+
       font-weight: 500;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--text-color-secondary);
+
       svg {
         margin-left: 0.5rem;
         font-size: 1.2rem;
-      }
-
-      cursor: pointer;
-      transition: color var(--speed) ease;
-      &:hover {
-        color: white;
       }
     }
   }

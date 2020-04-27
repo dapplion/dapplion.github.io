@@ -1,5 +1,5 @@
 :root {
-  --background-color: #0e0e0e;
+  --background-color: #0c0e13;
   --background-color-card: #1c1d23;
   --text-color: white;
   --text-color-secondary: #767a90;
@@ -90,4 +90,13 @@ a {
   );
   filter: blur(0.4 * $size);
   opacity: 0.6;
+}
+
+@mixin hoverText {
+  cursor: pointer;
+  transition: color var(--speed) ease;
+  color: var(--text-color-secondary);
+  &:hover {
+    color: white;
+  }
 }

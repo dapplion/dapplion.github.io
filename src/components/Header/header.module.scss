@@ -31,5 +31,10 @@
     > *:not(:last-child) {
       margin-right: $spacing;
     }
+
+    > * {
+      font-weight: 500;
+      @include root.hoverText;
+    }
   }
 }

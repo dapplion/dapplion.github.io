@@ -13,7 +13,7 @@ export function Headline() {
             I'm dapplion
           </div>
           <div className={style.subtitle}>
-            ..
+            I build open source tools for a decentralized world
           </div>
 
           <div className={style.blurShape} />

@@ -4,6 +4,9 @@ import d4rmLogo from "img/d4rm.png";
 import commonsStack from "img/commonsStack.png";
 import giveth from "img/giveth.png";
 import swarmcity from "img/swarmcity.png";
+import lodestarLogo from "img/lodestar.png";
+import lighthouseLogo from "img/lighthouse.svg";
+import gnosisLogo from "img/gnosis.png";
 
 export const twitterUrl = "https://twitter.com/dapplion";
 export const githubUrl = "https://github.com/dapplion";
@@ -15,6 +18,27 @@ export const recentWorkItems: {
   img: string;
   url: string;
 }[] = [
+  {
+    title: "Lighthouse @ Sigma Prime",
+    body:
+      "Ethereum core dev at Lighthouse, a leading open-source Ethereum consensus client, written in Rust",
+    img: lighthouseLogo,
+    url: "https://lighthouse.sigmaprime.io/",
+  },
+  {
+    title: "Gnosis Chain",
+    body:
+      "Fork coordinator and merge lead at Gnosis Chain",
+    img: gnosisLogo,
+    url: "https://gnosischain.com/",
+  },
+  {
+    title: "Lodestar @ ChainSafe",
+    body:
+      "Team lead at Lodestar, an open-source Ethereum consensus client written in Typescript",
+    img: lodestarLogo,
+    url: "https://lodestar.chainsafe.io/",
+  },
   {
     title: "DAppNode",
     body:

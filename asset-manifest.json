@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2790596.chunk.css",
-    "main.js": "./static/js/main.b7f455f4.chunk.js",
-    "main.js.map": "./static/js/main.b7f455f4.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.3735496c.js",
-    "runtime-main.js.map": "./static/js/runtime-main.3735496c.js.map",
-    "static/js/2.80b65ed2.chunk.js": "./static/js/2.80b65ed2.chunk.js",
-    "static/js/2.80b65ed2.chunk.js.map": "./static/js/2.80b65ed2.chunk.js.map",
+    "main.css": "./static/css/main.4194a311.css",
+    "main.js": "./static/js/main.52416373.js",
+    "static/media/lodestar.png": "./static/media/lodestar.30714b89ce2a2a548f8f.png",
+    "static/media/front.png": "./static/media/front.993390550cd6b6e6b2c4.png",
+    "static/media/swarmcity.png": "./static/media/swarmcity.517dd813cc9bf8a8f5a6.png",
+    "static/media/gnosis.png": "./static/media/gnosis.570e1ef659106bc0a797.png",
+    "static/media/commonsStack.png": "./static/media/commonsStack.69ae48e1fef8c78093a1.png",
+    "static/media/aragon.png": "./static/media/aragon.82759e1f753f73e5a194.png",
+    "static/media/lighthouse.svg": "./static/media/lighthouse.b5aa16fd0b191c9db0dfb147ecdf5428.svg",
+    "static/media/logo.svg": "./static/media/logo.edbd61a3e9894505b7f99ea53e1d3453.svg",
     "index.html": "./index.html",
-    "precache-manifest.30749bedcf733c9c8beac0727d8b661f.js": "./precache-manifest.30749bedcf733c9c8beac0727d8b661f.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.a2790596.chunk.css.map": "./static/css/main.a2790596.chunk.css.map",
-    "static/js/2.80b65ed2.chunk.js.LICENSE.txt": "./static/js/2.80b65ed2.chunk.js.LICENSE.txt",
-    "static/media/aragon.png": "./static/media/aragon.a352e847.png",
-    "static/media/commonsStack.png": "./static/media/commonsStack.115b191a.png",
-    "static/media/front.png": "./static/media/front.4e137be8.png",
-    "static/media/logo.svg": "./static/media/logo.59ccafb7.svg",
-    "static/media/swarmcity.png": "./static/media/swarmcity.24d73101.png"
+    "main.4194a311.css.map": "./static/css/main.4194a311.css.map",
+    "main.52416373.js.map": "./static/js/main.52416373.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.3735496c.js",
-    "static/js/2.80b65ed2.chunk.js",
-    "static/css/main.a2790596.chunk.css",
-    "static/js/main.b7f455f4.chunk.js"
+    "static/css/main.4194a311.css",
+    "static/js/main.52416373.js"
   ]
 }
